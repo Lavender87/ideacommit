@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="871e7a73-deae-44e0-832c-08c4cc79a19b" name="Default Changelist" comment="tets">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/demo/action/MyAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/demo/controller/QueryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/demo/service/IQueryservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/demo/service/impl/Queryservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/annotation/GPAutowried.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/annotation/GPController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/annotation/GPRequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/annotation/GPRequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/annotation/GPService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/annotation/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/GPAopProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/GPCglibAopProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/GPJdkDynamicAopProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/aspect/GPAbstractAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/aspect/GPAfterReturningAdviceInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/aspect/GPAspectJAfterThrowingAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/aspect/GPMethodBeforeAdviceInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/config/GPAopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/intercept/GPMethodInvocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/logAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/support/GPAdvisedSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/aop/support/GPMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/beans/GPBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/beans/GPBeanWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/beans/config/GPBeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/beans/config/GPBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/beans/support/GPBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/beans/support/GPDefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/context/GPApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/context/GPApplicationContextAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/context/support/GPAbstractApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/webmvc/GPDispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/webmvc/servlet/GPHandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/webmvc/servlet/GPHandlerMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/webmvc/servlet/GPModelAndView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/webmvc/servlet/GPView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/spring/formwork/webmvc/servlet/GPViewResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/layouts/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/layouts/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/spring/formwork/beans/GPBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/spring/formwork/beans/GPBeanWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/spring/formwork/beans/config/GPBeanDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/spring/formwork/beans/support/GPBeanDefinitionReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/spring/formwork/beans/support/GPDefaultListableBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/spring/formwork/context/GPApplicationContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/spring/formwork/context/GPApplicationContextAware.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/spring/formwork/context/support/GPAbstractApplicationContext.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Xk3NfdH7TvKBaG824H3rTxUWiJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gupaoedu.vip.spring.formwork.webmvc.servlet" />
+      <recent name="com.gupaoedu.vip.spring.formwork.annotation" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GPApplicationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.spring.formwork.context.GPApplicationContext" />
+      <module name="gupaoedu-vip-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gupaoedu.vip.spring.formwork.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GPApplicationContext" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="871e7a73-deae-44e0-832c-08c4cc79a19b" name="Default Changelist" comment="" />
+      <created>1581576226762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581576226762</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tets" />
+    <option name="LAST_COMMIT_MESSAGE" value="tets" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="664" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1582353881453">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="664" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582353881453" />
+    <state x="283" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582355053104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="283" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1582355053104" />
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1582389055708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582389055708" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1582388838496">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582388838496" />
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom" timestamp="1581612215296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581612215296" />
+    <state width="1322" height="159" key="GridCell.Tab.0.center" timestamp="1581612215295">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581612215295" />
+    <state width="1322" height="159" key="GridCell.Tab.0.left" timestamp="1581612215295">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581612215295" />
+    <state width="1322" height="159" key="GridCell.Tab.0.right" timestamp="1581612215296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581612215296" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1581576264054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581576264054" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1582351454578">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582351454578" />
+  </component>
+</project>
